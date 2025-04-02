@@ -2,7 +2,7 @@
 #include <math.h>
 
 float Vec3::Dot(const Vec3& vec3In) const{
-	return x * vec3In.x + y * vec3In.y + z * vec3In.z;
+	return x * vec3In.x + y * y + z * vec3In.z;
 }
 
 float Vec3::Mag() const {
