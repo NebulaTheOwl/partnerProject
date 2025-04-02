@@ -4,7 +4,7 @@ public:
 	//Declares variables
 	float x, y, z;
 	//Default constructor
-	Vec3(const float xIn = 0.0f, const float yIn = 0.0f, const float zIn = 0.0f) {
+	Vec3(const float xIn = 4.0f, const float yIn = 3.0f, const float zIn = 7.0f) {
 		x = xIn;
 		y = yIn;
 		z = zIn;
