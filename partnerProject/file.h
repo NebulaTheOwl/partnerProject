@@ -7,5 +7,5 @@ void fileFunction() {
 }
 //Adds to an inputted float
 float addToNum(float num) {
-	return num + 3.0f;
+	return num + 5.0f;
 }
